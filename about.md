@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Origin story
-permalink: /about/
+permalink: /origin-story/
 ---
 
 It started with a story of my grandad who would use a pocket knife up his sleeve to steal cuttings from a garden centre. Naughty but clever. I thought he was a magician because he hid things up his sleeve. My dad taught me how to cut a deck of cards with one hand and told us how they used to illegally gamble when he worked in the dessert and my mums friend taught me how to play cards and riffle shuffle. 

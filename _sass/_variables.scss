@@ -4,7 +4,9 @@
 //
 
 // Colors
-$blue: #4183C4;
+$blue: rgb(65, 131, 196);
+$red: rgb(255, 59, 59);
+$yellow: rgb(255, 232, 60);
 
 // Grays
 $black: #000;
@@ -15,8 +17,7 @@ $lightGray: #eee;
 $white: #fff;
 
 // Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$futura: 'Futura PT', Futura, Helvetica, Arial, Sans-serif;
 $georgia: Georgia, serif;
 
 // Mobile breakpoints

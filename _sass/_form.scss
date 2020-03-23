@@ -1,0 +1,65 @@
+.form-harris {
+  background: $black;
+  padding: 2em;
+}
+.form-harris,
+
+.form-harris input[type=text],
+.form-harris input[type=email],
+.form-harris textarea,
+.form-harris label
+{
+  width: 100%;
+}
+.form-harris input[type=submit],
+.form-harris input[type=button] {
+    width: 50%;
+}
+.form-harris label {
+    color: white;
+}
+.form-harris input[type=text],
+.form-harris input[type=email],
+.form-harris textarea,
+.form-harris input[type=submit],
+.form-harris input[type=button]
+{
+    color: white;
+	background: $gray;
+	border: none;
+	outline: none;
+    padding: 1em 1em 1em 1em;
+    border-bottom: 1px solid $gray;
+    margin: 0 0 2em 0;
+}
+
+.form-harris textarea:focus, 
+.form-harris input[type=text]:focus,
+.form-harris input[type=email]:focus
+{
+	border-bottom: 1px dashed $white;
+}
+
+.form-harris input[type=submit],
+.form-harris input[type=button]
+{
+	background: $gray;
+	border: none;
+	padding: 1em;
+	color: $white;
+	font-size: 1em;
+	&:hover {
+		background: $blue;
+		cursor: pointer;
+		color: $white;
+	}
+}
+
+.form-harris .col {
+	width: 50%;
+	float: left;
+	@include mobile {
+		width: 100%;
+		float: none;
+	}
+}

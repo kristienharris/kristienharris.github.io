@@ -15,3 +15,13 @@ layout: default
 
   {% include disqus.html %}
 </article>
+
+<div class="PageNavigation">
+  <h2>More posts</h2>
+  {% if page.previous.url %}
+      <p><a class="prev" href="{{page.previous.url}}"><strong>←</strong> {{page.previous.title}}</a></p>
+  {% endif %}
+  {% if page.next.url %}
+      <p><a class="next" href="{{page.next.url}}">{{page.next.title}} <strong>→</strong></a></p>
+  {% endif %}
+</div>

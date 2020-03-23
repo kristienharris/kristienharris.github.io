@@ -1,7 +1,6 @@
 ---
 layout: page
 ---
-# {{ site.name }}
 {{ site.description }}
 
 Your event, your guests and your entertainment.

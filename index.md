@@ -1,6 +1,7 @@
 ---
 layout: page
 ---
+# Kristien Harris
 {{ site.description }}
 
 Your event, your guests and your entertainment.

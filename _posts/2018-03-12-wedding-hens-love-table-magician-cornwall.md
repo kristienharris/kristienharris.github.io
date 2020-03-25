@@ -31,7 +31,7 @@ Relief filled the room. Everyone relaxes and we had a great evening.
 
 Remember never confuse a magician for a stripper. And if your looking for alternative entertainment on your hen do get in touch. A table magician might be what you're after.
 
-If you're not organising a hen do Plymouth magazine loved me as a [wedding magician.](http://www.kristienharris.com/plymouth-magazine-loves-wedding-magician/)
+If you're not organising a hen do Plymouth magazine loved me as a [wedding magician.](https://www.kristienharris.com/plymouth-magazine-loves-wedding-magician/)
 
 ## Questions to ask a table magician before booking:
 
@@ -45,7 +45,7 @@ What will happen when you perform?
 
 How do you want paying?
 
-Do you have any [terms and conditions](http://kristienharris.com/terms-and-conditions/)?
+Do you have any [terms and conditions](https://kristienharris.com/terms-and-conditions/)?
 
 Do you have public liability insurance?
 
@@ -58,5 +58,3 @@ Do my guests like magic?
 Does the table magician have any reviews? (are they good?)
 
 Are they a member of any magic societies or performers guild?
-
-[vc\_gallery el\_id=&#8221;gallery-405495&#8243; random=&#8221;yes&#8221; medias=&#8221;58033,58032,58031&#8243; gutter\_size=&#8221;0&#8243; screen\_lg=&#8221;1000&#8243; screen\_md=&#8221;600&#8243; screen\_sm=&#8221;480&#8243; single\_overlay\_opacity=&#8221;50&#8243; single_padding=&#8221;2&#8243;]

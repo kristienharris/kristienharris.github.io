@@ -7,9 +7,9 @@ author: Harris
 
 I’d like to share with 3 mentors who have helped me progress. Here is the first. By way of introducing me to the larger world of magic he’s helped me become a better magician and has been a great friend. Professional, polite and good humored don’t do the man justice. He’s a treasure of Plymouth and here’s why.
 
-This post is about **[Malcolm Norton](http://www.topsecretmagic.co.uk/MalNorton.html "visit Malcolm's website")** and how he hopes others follow ‘suit’. Malcolm is a dear friend and a great magician. Not only has he owned a magic shop for decades but he’s worked some of the biggest stages and everything in between. A member of The Prestigous London Magic Circle he’s met some of the biggest names (Margaret Thatcher!) and get’s visits from the likes of Derren Brown, Paul Zerdin and Gok Wan!
+This post is about **[Malcolm Norton](https://www.topsecretmagic.co.uk/MalNorton.html "visit Malcolm's website")** and how he hopes others follow ‘suit’. Malcolm is a dear friend and a great magician. Not only has he owned a magic shop for decades but he’s worked some of the biggest stages and everything in between. A member of The Prestigous London Magic Circle he’s met some of the biggest names (Margaret Thatcher!) and get’s visits from the likes of Derren Brown, Paul Zerdin and Gok Wan!
 
-Here’s [the article](http://www.plymouthherald.co.uk/Plymouth-magic-man-Malcolm-Norton-hopes-follow/story-18246713-detail/story.html) I got inspiration for this post from.
+Here’s [the article](https://www.plymouthherald.co.uk/Plymouth-magic-man-Malcolm-Norton-hopes-follow/story-18246713-detail/story.html) I got inspiration for this post from.
 
 Basically ‘Mal’ is the perfect mentor for a Magician from Plymouth.
 

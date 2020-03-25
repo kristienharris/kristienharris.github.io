@@ -23,4 +23,4 @@ Keep up the good work Sue and the crew. Thanks for being so welcoming and helpfu
 
 Take a look at the event page and other events coming up
 
-[Calstokc Arts magic show event page](http://calstockarts.org/sunday-22-april-sleightly-mad-an-afternoon-of-magic-with-kris-harris/)
+[Calstokc Arts magic show event page](https://calstockarts.org/sunday-22-april-sleightly-mad-an-afternoon-of-magic-with-kris-harris/)

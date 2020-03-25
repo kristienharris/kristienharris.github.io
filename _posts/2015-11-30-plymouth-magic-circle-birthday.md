@@ -9,8 +9,8 @@ One of the highlights was Mark James performing as the headliner. Mark is an out
 
 This show was a great step forward for the Plymouth Magic Circle. It got local press involvement and magicians were featured on TV and radio as part of the buildup.
 
-http://www.radioplymouth.com/news/local-news/plymouths-magic-circle-to-celebrate-80th-birthday/
+https://www.radioplymouth.com/news/local-news/plymouths-magic-circle-to-celebrate-80th-birthday/
 
 You can find out more about the plymouth magicians club here:
 
-[Plymouths finest collection of magicians](http://www.plymouthmagiccircle.co.uk)
+[Plymouths finest collection of magicians](https://www.plymouthmagiccircle.co.uk)

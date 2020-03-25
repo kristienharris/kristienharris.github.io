@@ -26,6 +26,6 @@ A lot of magicians just rely on doing the best tricks and forget that to make th
 
 ## Links for East Sour Farm
 
-http://www.eastsoaroutdoorexperience.co.uk/
+[East Sour Farm](https://www.eastsoaroutdoorexperience.co.uk/)
 
-https://www.google.com/maps/place/East+Soar+Outdoor+Experience/@50.220165,-3.794295,15z/data=!4m5!3m4!1s0x0:0x5e7cd239168abbe8!8m2!3d50.220165!4d-3.794295
+[How to get to East Sour Farm](https://www.google.com/maps/place/East+Soar+Outdoor+Experience/@50.220165,-3.794295,15z/data=!4m5!3m4!1s0x0:0x5e7cd239168abbe8!8m2!3d50.220165!4d-3.794295)

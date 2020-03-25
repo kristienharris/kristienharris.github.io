@@ -35,7 +35,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $futura;
-  color: $darkerGray;
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
@@ -132,7 +131,7 @@ img {
 }
 
 // Nicolas Gallagher's micro clearfix hack
-// http://nicolasgallagher.com/micro-clearfix-hack/
+// https://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
 .clearfix:after {
     content: " ";
@@ -152,7 +151,7 @@ img {
 //
 
 .wrapper-masthead {
-  background: $blue;
+  background: $black;
 }
 
 .masthead {
@@ -197,7 +196,18 @@ nav {
 //
 // .main
 //
+// .header {
+//   background-image: url("images/2018-magician-devon-kristien-harris-promo.jpg");
+//   height: 500px;
+//   background-attachment: fixed;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   color: $white;
+// }
 
+
+// Post styles
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
@@ -208,7 +218,7 @@ nav {
   border-bottom: none;
 }
 
-.post, .page {
+.post blockquote, .page {
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
@@ -227,7 +237,18 @@ nav {
     font-size: 15px;
   }
 }
-
+.button {
+  font-family: $futura;
+  background: $blue;
+  color: $white;
+  padding: 1em;
+  line-height: 2em;
+  text-transform: uppercase;
+  &:hover {
+    background: $black;
+    color: $white;
+  }
+}
 .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid #ddd;
@@ -245,9 +266,9 @@ nav {
     }
   }
 }
-
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+@import "parallax";
 @import "form";
 @import "highlights";
 @import "svg-icons";

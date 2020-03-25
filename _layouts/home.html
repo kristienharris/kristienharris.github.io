@@ -1,50 +1,123 @@
----
-layout: default
----
-<div>
-    {{ site.name }}
-    {{ site.description }}
-    
-    Your event, your guests and your entertainment.
-    
-    <a href="/contact/">Contact</a>
-</div>
+<!DOCTYPE html>
+<html>
 
-<h1>Smart, fun and wonderful</h1>
+  {% include head.html %}
 
-Entertaining Devon and Cornwall’s business people, muggles and newly weds for 19 years and counting. An expert at sleight of hand and a dab hand with humorous impossibility.
+  <body>
 
-> {{ site.data.quotes.list[0].quote }}
-> 
-> {{ site.data.quotes.list[0].name }}
+    {% include masthead.html %}
 
-Kris is a member of the worlds premiere magic club The Magic Circle in London. Was, for several years, secretary of the Plymouth Magic Circle and was a member of the Cornish Magic Society. Also a current member of Equity the performers union with full public liability insurance.
+    <div class="parallax">
+        <div id="group1" class="parallax__group">
+          <div class="parallax__layer parallax__layer--base">
+            <div class="title">
+                <h1><strong>Kristien Harris</strong></h1>
+                <p>Sleight of hand storyteller</p>
+            </div>
+          </div>
+        <!-- </div>
+        <div id="group2" class="parallax__group">
+          <div class="parallax__layer parallax__layer--base">
+            <div class="title">Performer</div>
+          </div>
+          <div class="parallax__layer parallax__layer--back">
+            <div class="title">Magician</div>
+          </div>
+        </div>
+        <div id="group3" class="parallax__group">
+          <div class="parallax__layer parallax__layer--fore">
+            <div class="title">Entertainer</div>
+          </div>
+          <div class="parallax__layer parallax__layer--base">
+            <div class="title">Base Layer</div>
+          </div>
+        </div>
+        <div id="group4" class="parallax__group">
+          <div class="parallax__layer parallax__layer--base">
+            <div class="title">Base Layer</div>
+          </div>
+          <div class="parallax__layer parallax__layer--back">
+            <div class="title">Background Layer</div>
+          </div>
+          <div class="parallax__layer parallax__layer--deep">
+            <div class="title">Deep Background Layer</div>
+          </div>
+        </div>
+        <div id="group5" class="parallax__group">
+          <div class="parallax__layer parallax__layer--fore">
+            <div class="title">Foreground Layer</div>
+          </div>
+          <div class="parallax__layer parallax__layer--base">
+            <div class="title">Base Layer</div>
+          </div>
+        </div>
+        <div id="group6" class="parallax__group">
+          <div class="parallax__layer parallax__layer--back">
+            <div class="title">Background Layer</div>
+          </div>
+          <div class="parallax__layer parallax__layer--base">
+            <div class="title">Base Layer</div>
+          </div>
+        </div>
+        <div id="group7" class="parallax__group">
+          <div class="parallax__layer parallax__layer--base">
+            <div class="title">Base Layer</div>
+          </div>
+        </div>
+    </div> -->
+    <div class="container">
+        <h2>Smart, fun and wonderful</h2>
+        <p>Entertaining Devon and Cornwall’s business people, muggles and newly weds for 19 years and counting. An expert at sleight of hand and a dab hand with humorous impossibility.</p>
+        <blockquote>
+            {{ site.data.quotes.list[0].quote }}
+        
+            {{ site.data.quotes.list[0].name }}
+        </blockquote>
+    </div>
+    <div class="container">
+        image
+        <p>Kris is a member of the worlds premiere magic club The Magic Circle in London. Was, for several years, secretary of the Plymouth Magic Circle and was a member of the Cornish Magic Society. Also a current member of Equity the performers union with full public liability insurance.</p>
+    </div>
+    <div class="container">
+        <h2>Get availability information and a quote</h2>
+        <blockquote>
+            {{ site.data.quotes.list[1].quote }} 
+        
+            {{ site.data.quotes.list[1].name }}
+        </blockquote>
+        <p><a class="button" href="/contact/" title="Contact to find out">Is your date available?</a></p>
+    </div>
+    <div class="container">  
+        <p>Another wednesday night of magic coming soon to Plymouth.</p>
+        <p>Hosted by Kristien Harris</p>
+        <p><a class="button" href="/contact/" title="Find out">When is the next show?</a></p>
+    </div>
+    <div class="container">
+      <h2>wedding / christmas / hospitality / birthday</h2>
+      <blockquote>
+        {{ site.data.quotes.list[2].quote }}
+            
+        {{ site.data.quotes.list[2].name }}
+      </blockquote>
+    </div>
+    <div class="container">
+        <h2>Gallery</h2>
+    </div>
+    <div class="container">
+        <h2>table / stage / parlour / street / trade show</h2>
+        <blockquote>
+            {{ site.data.quotes.list[3].quote }}
+            
+            {{ site.data.quotes.list[3].name }}
+        </blockquote>
+    </div>
+    <div class="container">
+        <h2>Thinking about booking or want to ask a question?</h2>
+        <p>Contact Harris Magic™ for quotes more information and booking availability. Any questions welcome. All questions answered as soon as possible.</p>
+        <p><a class="button" href="/contact/" title="Contact">More info</a></p>
+    </div>    
 
-## Get availability information and a quote
-> {{ site.data.quotes.list[1].quote }}
-> 
-> {{ site.data.quotes.list[1].name }}
-
-Is your date available?
-
-## Another wednesday night of magic coming soon to Plymouth.
-Hosted by Kristien Harris
-
-When is the next show?
-
-## wedding / christmas / hospitality / birthday
-> {{ site.data.quotes.list[2].quote }}
-> 
-> {{ site.data.quotes.list[2].name }}
-
-## gallery
-
-## table / stage / parlour / street / trade show
-## wedding / christmas / hospitality / birthday
-> {{ site.data.quotes.list[3].quote }}
-> 
-> {{ site.data.quotes.list[3].name }}
-
-## Thinking about booking or want to ask a question?
-Contact Harris Magic™ for quotes more information and booking availability. Any questions welcome. All questions answered as soon as possible.
-More info
+    {% include footer.html %}
+    {% include analytics.html %}
+  </body>
+</html>

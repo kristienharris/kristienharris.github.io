@@ -20,6 +20,8 @@ $white: #fff;
 $futura: 'Futura PT', Futura, Helvetica, Arial, Sans-serif;
 $georgia: Georgia, serif;
 
+// Opacity
+
 // Mobile breakpoints
 @mixin mobile {
   @media screen and (max-width: 640px) {

@@ -1,9 +1,10 @@
+.contact {
+	background: $lightGray;
+  }
 .form-harris {
-  background: $black;
-  padding: 2em;
+  background: $lightGray;
 }
 .form-harris,
-
 .form-harris input[type=text],
 .form-harris input[type=email],
 .form-harris textarea,
@@ -16,28 +17,30 @@
     width: 50%;
 }
 .form-harris label {
-    color: white;
+    color: black;
 }
+.form-harris input,
 .form-harris input[type=text],
 .form-harris input[type=email],
 .form-harris textarea,
 .form-harris input[type=submit],
 .form-harris input[type=button]
 {
-    color: white;
-	background: $gray;
+    color: black;
+	background: $white;
 	border: none;
 	outline: none;
     padding: 1em 1em 1em 1em;
-    border-bottom: 1px solid $gray;
-    margin: 0 0 2em 0;
+    border-bottom: 2px solid $gray;
+	margin: 0 0 2em 0;
+	font-size: 1em;
 }
 
 .form-harris textarea:focus, 
 .form-harris input[type=text]:focus,
 .form-harris input[type=email]:focus
 {
-	border-bottom: 1px dashed $white;
+	border-bottom: 2px dashed $gray;
 }
 
 .form-harris input[type=submit],
@@ -45,9 +48,11 @@
 {
 	background: $gray;
 	border: none;
-	padding: 1em;
 	color: $white;
 	font-size: 1em;
+	padding: 1em;
+	transition: background .3s ease-out;
+
 	&:hover {
 		background: $blue;
 		cursor: pointer;
@@ -63,3 +68,7 @@
 		float: none;
 	}
 }
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: $black;
+	opacity: .2; /* Firefox */
+  }

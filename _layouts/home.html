@@ -1,122 +1,76 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
-
-  <body>
-
+  <body class="stage">
     {% include masthead.html %}
+    
+    <section class="act-1">
+      <div class="container">
+        <h1>{{ site.name }}</h1>
+        <p>{{ site.description }}</p>
+      </div>
+    </section>
 
-    <div class="parallax">
-        <div id="group1" class="parallax__group">
-          <div class="parallax__layer parallax__layer--base">
-            <div class="title">
-                <h1><strong>Kristien Harris</strong></h1>
-                <p>Sleight of hand storyteller</p>
-            </div>
-          </div>
-        </div>
-        <div id="group2" class="parallax__group">
-          <div class="parallax__layer parallax__layer--base">
-            <div class="title">Performer</div>
-          </div>
-          <div class="parallax__layer parallax__layer--back">
-            <div class="title">Magician</div>
-          </div>
-        </div>
-        <div id="group3" class="parallax__group">
-          <div class="parallax__layer parallax__layer--fore">
-            <div class="title">Entertainer</div>
-          </div>
-          <div class="parallax__layer parallax__layer--base">
-            <div class="title">Base Layer</div>
-          </div>
-        </div>
-        <div id="group4" class="parallax__group">
-          <div class="parallax__layer parallax__layer--base">
-            <div class="title">Base Layer</div>
-          </div>
-          <div class="parallax__layer parallax__layer--back">
-            <div class="title">Background Layer</div>
-          </div>
-          <div class="parallax__layer parallax__layer--deep">
-            <div class="title">Deep Background Layer</div>
-          </div>
-        </div>
-        <div id="group5" class="parallax__group">
-          <div class="parallax__layer parallax__layer--fore">
-            <div class="title">Foreground Layer</div>
-          </div>
-          <div class="parallax__layer parallax__layer--base">
-            <div class="title">Base Layer</div>
-          </div>
-        </div>
-        <div id="group6" class="parallax__group">
-          <div class="parallax__layer parallax__layer--back">
-            <div class="title">Background Layer</div>
-          </div>
-          <div class="parallax__layer parallax__layer--base">
-            <div class="title">Base Layer</div>
-          </div>
-        </div>
-        <div id="group7" class="parallax__group">
-          <div class="parallax__layer parallax__layer--base">
-            <div class="title">Base Layer</div>
-          </div>
-        </div>
-    </div>
-    <div class="container">
-        <h2>Smart, fun and wonderful</h2>
-        <p>Entertaining Devon and Cornwall’s business people, muggles and newly weds for 19 years and counting. An expert at sleight of hand and a dab hand with humorous impossibility.</p>
-        <blockquote>
-            {{ site.data.quotes.list[0].quote }}
-        
-            {{ site.data.quotes.list[0].name }}
+    <section class="act-2">
+      <div class="container">
+          <h2>Magician</h2>
+          <p>Entertaining business people, muggles and newly weds for 19 years and counting. A sleight of hand afficionado and a dab hand with humorous impossibility.</p>
+          <blockquote  cite="https://www.google.com/search?client=safari&rls=en&q=harris+magic&ie=UTF-8&oe=UTF-8&safari_group=9#lrd=0x486c93265bc06ef1:0xa257ffaf30d6a15,1,,,">
+            <q>{{ site.data.quotes.list[0].quote }}</q>
+            <footer>{{ site.data.quotes.list[0].name }}</footer>
         </blockquote>
-    </div>
-    <div class="container">
-        image
-        <p>Kris is a member of the worlds premiere magic club The Magic Circle in London. Was, for several years, secretary of the Plymouth Magic Circle and was a member of the Cornish Magic Society. Also a current member of Equity the performers union with full public liability insurance.</p>
-    </div>
-    <div class="container">
-        <h2>Get availability information and a quote</h2>
-        <blockquote>
-            {{ site.data.quotes.list[1].quote }} 
-        
-            {{ site.data.quotes.list[1].name }}
-        </blockquote>
-        <p><a class="button" href="/contact/" title="Contact to find out">Is your date available?</a></p>
-    </div>
-    <div class="container">  
-        <p>Another wednesday night of magic coming soon to Plymouth.</p>
-        <p>Hosted by Kristien Harris</p>
-        <p><a class="button" href="/contact/" title="Find out">When is the next show?</a></p>
-    </div>
-    <div class="container">
-      <h2>wedding / christmas / hospitality / birthday</h2>
-      <blockquote>
-        {{ site.data.quotes.list[2].quote }}
-            
-        {{ site.data.quotes.list[2].name }}
-      </blockquote>
-    </div>
-    <div class="container">
-        <h2>Gallery</h2>
-    </div>
-    <div class="container">
-        <h2>table / stage / parlour / street / trade show</h2>
-        <blockquote>
-            {{ site.data.quotes.list[3].quote }}
-            
-            {{ site.data.quotes.list[3].name }}
-        </blockquote>
-    </div>
-    <div class="container">
-        <h2>Thinking about booking or want to ask a question?</h2>
-        <p>Contact Harris Magic™ for quotes more information and booking availability. Any questions welcome. All questions answered as soon as possible.</p>
-        <p><a class="button" href="/contact/" title="Contact">More info</a></p>
-    </div>    
+      </div>
+    </section>
 
+    <section class="act-3">
+      <div class="container">
+          <p>Kris is a member of The Magic Circle in London. Served as secretary of the Plymouth Magic Circle and was a member of the Cornish Magic Society. Also a current member of Equity the performers union with full public liability insurance.</p>
+      </div>
+    </section>
+    
+    <section class="act-4">
+      <div class="container">
+          <h2>Trickster</h2>
+          <blockquote  cite="https://www.google.com/search?client=safari&rls=en&q=harris+magic&ie=UTF-8&oe=UTF-8&safari_group=9#lrd=0x486c93265bc06ef1:0xa257ffaf30d6a15,1,,,">
+            <q>{{ site.data.quotes.list[1].quote }}</q>
+            <footer>{{ site.data.quotes.list[1].name }}</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="act-5">
+        <div class="container">
+          <h2>Next Show</h2>
+          <p>Wednesday Night Magic has been postponed due to the pandemic.</p>
+        </div>
+        <div class="overlay"></div>
+    </section>
+
+    <section class="act-6">
+        <div>
+          <h6>wedding / christmas / hospitality / birthday</h6>
+          <blockquote  cite="https://www.google.com/search?client=safari&rls=en&q=harris+magic&ie=UTF-8&oe=UTF-8&safari_group=9#lrd=0x486c93265bc06ef1:0xa257ffaf30d6a15,1,,,">
+            <q>{{ site.data.quotes.list[2].quote }}</q>
+            <footer>{{ site.data.quotes.list[2].name }}</footer>
+        </blockquote>
+        </di>
+    </section>
+
+    <section class="act-7">
+      <div class="container">
+          <h2>Gallery</h2>
+      </div>
+    </section>
+
+    <section class="act-8">
+          <h6>table / stage / parlour / street / trade show</h6>
+          <blockquote  cite="https://www.google.com/search?client=safari&rls=en&q=harris+magic&ie=UTF-8&oe=UTF-8&safari_group=9#lrd=0x486c93265bc06ef1:0xa257ffaf30d6a15,1,,,">
+            <q>{{ site.data.quotes.list[3].quote }}</q>
+            <footer>{{ site.data.quotes.list[3].name }}</footer>
+        </blockquote>
+    </section>
+
+    {% include form.html %}
     {% include footer.html %}
     {% include analytics.html %}
   </body>

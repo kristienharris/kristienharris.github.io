@@ -6,7 +6,7 @@
 name: Kristien Harris
 
 # Short bio or description (displayed in the header)
-description: Magician, trickster and poet
+description: Sleight of hand storyteller
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/impossible-H.svg
@@ -93,3 +93,11 @@ exclude:
   - README.md
   - CNAME
   - .jekyll-cache
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

@@ -1,16 +1,26 @@
-<form class="form-harris" action="https://formspree.io/xrgqrkvo" method="POST">
-  <div class="col">
-    <label for="fname">First name</label>
-    <input type="text" name="fname">
-  </div>
-  <div class="col">
-    
-    <label for="lname">Last name</label>
-    <input type="text" name="lname">
-  </div>
-  <label for="Email">Email</label>
-  <input type="email" name="_replyto">
-  <label for="message">Message</label>
-  <textarea name="message"></textarea>
-  <input type="submit" value="Send">
-</form>
+<section class="contact">
+  <div class="container">
+
+    <h2>Find out more</h2>
+
+    <form class="form-harris" id="contact-form" name="Harris Magic" accept-charset="utf-8" action="https://formspree.io/xrgqrkvo" method="post">
+      <fieldset id="fs-frm-inputs">
+        <div class="col">
+          <label for="fname">First name</label>
+          <input type="text" name="fname" id="fname" placeholder="First" required="">
+        </div>
+        <div class="col">
+          <label for="lname">Last name</label>
+          <input type="text" name="lname" id="lname" placeholder="Second" required="">
+        </div>
+        <label for="email-address">Email Address</label>
+        <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+        <label for="message">Message</label>
+        <textarea rows="5" name="message" id="message" placeholder="Let me know why you want a wonder maker" required=""></textarea>
+        <input type="hidden" name="_subject" id="email-subject" value="Website message">
+      </fieldset>
+      <input type="submit" value="Submit">
+    </form>
+
+  </div>    
+</section>

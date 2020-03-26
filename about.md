@@ -4,10 +4,16 @@ title: About
 permalink: /about/
 ---
 
-It started with a story of my grandad who would use a pocket knife up his sleeve to steal cuttings from a garden centre. Naughty but clever. I thought he was a magician because he hid things up his sleeve. My dad taught me how to cut a deck of cards with one hand and told us how they used to illegally gamble when he worked in the dessert and my mums friend taught me how to play cards and riffle shuffle. 
+It started with a story of my grandad who would use a pocket knife up his sleeve to steal cuttings from a garden centre. Naughty but clever. I thought he was a magician because he hid things up his sleeve. After recouting that story I now know how my mum became a magician.
 
-After that I learnt how to vanish things and then I learnt how to make it entertaining and funny.
+My dad taught me how to cut a deck of cards with one hand and told us how they used to gamble illegally when he worked in the dessert. I gambled 'illegally' in school with cards, marbles and lunchboxes.
 
-### Professional magicians
+My mums friend taught me how to play cards and riffle shuffle. God rest her soul because he gave her vodka. She gave me my first job that bought my first deck of new playing cards.
 
-It's one thing having a great origin story but when it comes to entertaining an audience full of people it takes more than fancy words. You need to be able to handle a stage, a microphone and an audience. I've honed those skills over tens years now and have performed for a wide variety of clients including corporate tradehsows, weddings, private parties and charities.
+From then my mum a master crafter gave me a doorway to a world hidden by books with no barcodes. Even she didn't know what she was buying but gladly Malcolm did.
+
+Malcolm owned the magic shop. None more said. I've spent time in that shop and time outside it performing for anyone who dares to stop. 
+
+I met friends who had the same spirit. Lost friends with greater spririt and sought people who could show me wonder was real.
+
+Now I make wonder real for people of all ages. Sometimes it's funny. Sometimes it's not. But at least you'll remember that feeling forever.

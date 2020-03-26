@@ -1,12 +1,7 @@
-- name: Home
-  link: /
-- name: Shows
-  link: /shows/
-- name: Video
-  link: /video/
-- name: About
+- name: My story
   link: /about/
-- name: Blog
-  link: /blog/
+- name: Home
+  class: home
+  link: /
 - name: Contact
-  link: /contact/
+  link: /#contact-form

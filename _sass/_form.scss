@@ -3,6 +3,10 @@
   }
 .form-harris {
   background: $lightGray;
+  * {
+		-webkit-appearance: none;
+		border-radius: 0;
+	}
 }
 .form-harris,
 .form-harris input[type=text],
@@ -72,3 +76,4 @@
 	color: $black;
 	opacity: .2; /* Firefox */
   }
+

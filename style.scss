@@ -63,7 +63,6 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $gray;
 }
 
 p {
@@ -199,7 +198,7 @@ nav {
     color: $white;
     font-family: $futura;
     font-weight: 200;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
     margin-left: 20px;
     opacity: .7;
     text-transform: uppercase;
@@ -216,24 +215,6 @@ nav {
   }
 }
 .stage {
-  @mixin overlay {
-    .container {
-      position: absolute;
-      max-width: 100%;
-      height: 100%;
-      z-index: 2;
-    }
-    .overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: $darkerGray;
-      opacity: .6;
-      z-index:1;
-    }
-  }
   section {
     padding: 3em 0;
     background-attachment: fixed;
@@ -251,18 +232,21 @@ nav {
     letter-spacing: 1em;
     text-align: center;
   }
-  .act-1 {
+  .act-open {
     background-image: url("images/2018-magician-devon-kristien-harris-promo.jpg");
     color: $white;
     height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
     h1,p {
       margin: 0;
-      padding: .5em 0;
+      padding: .5em 1em;
     }
     h1 {
-      background: black;
+      font-size: 1.5em;
+      background: $darkerGray;
+      color: $white;
     }
     p {
       background: white;
@@ -270,34 +254,41 @@ nav {
       margin: 0 auto;
     }
   }
-  .act-2 {
+  .act-intro {
   }
-  .act-3 {
+  .act-magician,
+  .act-trickster,
+  .act-environments,
+  .act-occasions  {
     text-align: center;
+    background: $darkerGray;
+    color: $white;
   }
-  .act-4 {
-    text-align: center;
+  .act-club {
+    .logos {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 200px;
+      }
+    }
   }
-  .act-5 {
+  .act-nextshow {
     text-align: center;
     background-image: url("images/2020-April-Wednesday-Night-Magic-Banner.png");
     height: 500px;
-    color: $white;
-    position: relative;
-    @include overlay;
+    h2 {
+      color: $white;
+      font-weight: 600;
+      background: red;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  .act-6 {
-    background: $darkerGray;
-    color: $white;
-    text-align: center;
-  }
-  .act-7 {
+  .act-gallery {
 
-  }
-  .act-8 {
-    background: $darkerGray;
-    color: $white;
-    text-align: center;
   }
 }
 

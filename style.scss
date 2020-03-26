@@ -222,6 +222,9 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: none;
+    @include mobile {
+      background-attachment: scroll;
+    }
     p {
       text-align: center;
       font-size: 1.4em;

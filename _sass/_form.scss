@@ -3,7 +3,7 @@
   }
 .form-harris {
   background: $lightGray;
-  * {
+  input, textarea {
 		-webkit-appearance: none;
 		border-radius: 0;
 	}

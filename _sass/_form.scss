@@ -1,76 +1,74 @@
 .contact {
 	background: $lightGray;
   }
-.form-harris {
-  background: $lightGray;
-  input, textarea {
+ .form-harris {
+	width: 100%;
+	background: $lightGray;
+	input[type=text],
+	input[type=email],
+	input[type=submit],
+	input[type=button]
+	textarea,
+	label {
 		-webkit-appearance: none;
 		border-radius: 0;
 	}
-}
-.form-harris,
-.form-harris input[type=text],
-.form-harris input[type=email],
-.form-harris textarea,
-.form-harris label
-{
-  width: 100%;
-}
-.form-harris input[type=submit],
-.form-harris input[type=button] {
-    width: 50%;
-}
-.form-harris label {
-    color: black;
-}
-.form-harris input,
-.form-harris input[type=text],
-.form-harris input[type=email],
-.form-harris textarea,
-.form-harris input[type=submit],
-.form-harris input[type=button]
-{
-    color: black;
-	background: $white;
-	border: none;
-	outline: none;
-    padding: 1em 1em 1em 1em;
-    border-bottom: 2px solid $gray;
-	margin: 0 0 2em 0;
-	font-size: 1em;
-}
-
-.form-harris textarea:focus, 
-.form-harris input[type=text]:focus,
-.form-harris input[type=email]:focus
-{
-	border-bottom: 2px dashed $gray;
-}
-
-.form-harris input[type=submit],
-.form-harris input[type=button]
-{
-	background: $gray;
-	border: none;
-	color: $white;
-	font-size: 1em;
-	padding: 1em;
-	transition: background .3s ease-out;
-
-	&:hover {
-		background: $blue;
-		cursor: pointer;
-		color: $white;
-	}
-}
-
-.form-harris .col {
-	width: 50%;
-	float: left;
-	@include mobile {
+	input[type=text],
+	input[type=email],
+	textarea,
+	label {
 		width: 100%;
-		float: none;
 	}
+	input[type=submit],
+	input[type=button] {
+		width: 50%;
+	}
+	label {
+		color: black;
+	}
+	input,
+	input[type=text],
+	input[type=email],
+	textarea,
+	input[type=submit],
+	input[type=button] {
+	   color: black;
+	   background: $white;
+	   border: none;
+	   outline: none;
+	   padding: 1em 1em 1em 1em;
+	   border-bottom: 2px solid $gray;
+	   margin: 0 0 2em 0;
+	   font-size: 1em;
+   	}
+	textarea:focus, 
+	input[type=text]:focus,
+	input[type=email]:focus {
+		border-bottom: 2px dashed $gray;
+	}
+	input[type=submit],
+	input[type=button] {
+	   background: $gray;
+	   border: none;
+	   color: $white;
+	   font-size: 1em;
+	   padding: 1em;
+	   transition: background .3s ease-out;
+   
+	   &:hover {
+		   background: $blue;
+		   cursor: pointer;
+		   color: $white;
+	   }
+   	}
+	.col {
+	   width: 50%;
+	   float: left;
+	   @include mobile {
+		   width: 100%;
+		   float: none;
+	   }
+   }
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 	color: $black;

@@ -214,10 +214,26 @@ nav {
     }
   }
 }
+/* CSS specific to iOS devices */ 
+@supports (-webkit-touch-callout: none) {
+  .stage {
+    section {
+      background-attachment: scroll;
+    }
+  }
+}
+
+/* CSS for other than iOS devices */ 
+@supports not (-webkit-touch-callout: none) {
+  .stage {
+    section {
+      background-attachment: fixed;
+    }
+  }
+}
 .stage {
   section {
     padding: 3em 0;
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

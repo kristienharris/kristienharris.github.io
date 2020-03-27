@@ -7,11 +7,12 @@
 	input[type=text],
 	input[type=email],
 	input[type=submit],
-	input[type=button]
+	input[type=button],
 	textarea,
 	label {
 		-webkit-appearance: none;
 		border-radius: 0;
+		font-family: $georgia;
 	}
 	input[type=text],
 	input[type=email],
@@ -71,7 +72,7 @@
    }
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	font-family: $georgia;
 	color: $black;
 	opacity: .2; /* Firefox */
   }
-

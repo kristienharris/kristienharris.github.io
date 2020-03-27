@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body class="stage">
+    {% include masthead.html %}
+    
+    <section class="act-open">
+      <div class="container">
+        <h1>{{ site.name }}</h1>
+        <p>{{ site.description }}</p>
+      </div>
+    </section>
+
+    <section class="act-intro">
+      <div class="container">
+          <p>Entertaining business people, muggles and newly weds for 19 years and counting. A sleight of hand afficionado and a dab hand with humorous impossibility.</p>
+      </div>
+    </section>
+
+    <section class="act-magician">
+      <div class="container">
+        <h2>Magician</h2>
+        <blockquote  cite="https://www.google.com/search?client=safari&rls=en&q=harris+magic&ie=UTF-8&oe=UTF-8&safari_group=9#lrd=0x486c93265bc06ef1:0xa257ffaf30d6a15,1,,,">
+          <q>{{ site.data.quotes.list[0].quote }}</q>
+          <footer>{{ site.data.quotes.list[0].name }}</footer>
+        </blockquote>
+      </div>
+    </section> 
+
+    <section class="act-club">
+      <div class="container">
+        <p>Kris is a member of The Magic Circle in London. Served as secretary of the Plymouth Magic Circle and was a member of the Cornish Magic Society. Also a current member of Equity the performers union with full public liability insurance.</p>
+        <div class="logos">
+          <img class="the-magic-circle-logo" src="images/the-magic-circle-logo.svg" title="Kristien Harris MMC" alt="The Magic Circle Logo">
+          <img class="equity-logo" src="images/equity-logo.png" title="Insured Equity Member" alt="Equity Logo">
+        </div>
+      </div>
+    </section>
+    
+    <section class="act-trickster">
+      <div class="container">
+          <h2>Trickster</h2>
+          <blockquote  cite="https://www.google.com/search?client=safari&rls=en&q=harris+magic&ie=UTF-8&oe=UTF-8&safari_group=9#lrd=0x486c93265bc06ef1:0xa257ffaf30d6a15,1,,,">
+            <q>{{ site.data.quotes.list[1].quote }}</q>
+            <footer>{{ site.data.quotes.list[1].name }}</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="act-nextshow">
+          <h2>&nbsp;Cancelled</h2>
+    </section>
+
+    <section class="act-occasions">
+        <div>
+          <h6>wedding / christmas / hospitality / birthday</h6>
+          <blockquote  cite="https://www.google.com/search?client=safari&rls=en&q=harris+magic&ie=UTF-8&oe=UTF-8&safari_group=9#lrd=0x486c93265bc06ef1:0xa257ffaf30d6a15,1,,,">
+            <q>{{ site.data.quotes.list[2].quote }}</q>
+            <footer>{{ site.data.quotes.list[2].name }}</footer>
+        </blockquote>
+        </div>
+    </section>
+
+    <section class="act-gallery">
+      <div class="container">
+          <h2>Gallery</h2>
+      </div>
+    </section>
+
+    <section class="act-environments">
+          <h6>table / stage / parlour / street / trade show</h6>
+          <blockquote  cite="https://www.google.com/search?client=safari&rls=en&q=harris+magic&ie=UTF-8&oe=UTF-8&safari_group=9#lrd=0x486c93265bc06ef1:0xa257ffaf30d6a15,1,,,">
+            <q>{{ site.data.quotes.list[3].quote }}</q>
+            <footer>{{ site.data.quotes.list[3].name }}</footer>
+        </blockquote>
+    </section>
+
+    {% include form.html %}
+    {% include footer.html %}
+    {% include analytics.html %}
+  </body>
+</html>

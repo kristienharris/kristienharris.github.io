@@ -1,7 +1,7 @@
 - name: My story
-  link: /about/
+  link: /my-story/
 - name: Home
   class: home
   link: /
 - name: Contact
-  link: /#contact-form
+  link: '#contact-form'

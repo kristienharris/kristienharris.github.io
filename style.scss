@@ -66,7 +66,7 @@ h4 {
 }
 
 p {
-  margin: 15px 0;
+  margin: $defaultFont 0;
 }
 
 a {
@@ -127,10 +127,7 @@ img {
 }
 
 // Specify the color of the selection
-::-moz-selection {
-  color: $black;
-  background: $lightGray;
-}
+::-moz-selection,
 ::selection {
   color: $black;
   background: $lightGray;
@@ -214,8 +211,11 @@ nav {
     }
   }
 }
-/* CSS specific to iOS devices */ 
-@supports (-webkit-touch-callout: none) {
+
+/* Background image */
+
+// ios background image fix
+@supports (-webkit-touch-callout: none) { // CSS specific to iOS devices
   .stage {
     section {
       background-attachment: scroll;
@@ -223,8 +223,7 @@ nav {
   }
 }
 
-/* CSS for other than iOS devices */ 
-@supports not (-webkit-touch-callout: none) {
+@supports not (-webkit-touch-callout: none) { // CSS for other than iOS devices
   .stage {
     section {
       background-attachment: fixed;
@@ -239,12 +238,9 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: none;
-    @include mobile {
-      background-attachment: scroll;
-    }
     p {
       text-align: center;
-      font-size: 1.4em;
+      font-size: $defaultFont;
     }
   }
   h1, h2, h3, h4, h5, h6 {
@@ -265,12 +261,12 @@ nav {
     }
     h1 {
       font-size: 1.5em;
-      background: $darkerGray;
+      background: $black;
       color: $white;
     }
     p {
-      background: white;
-      color: black;
+      background: $red;
+      color: $white;
       margin: 0 auto;
     }
   }

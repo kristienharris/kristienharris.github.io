@@ -161,12 +161,14 @@ img {
     background: url({{ site.avatar }}) no-repeat;
     width: 110px;
     display: inline-block;
-
     @include mobile {
       color: white;
       background-image: none;
       display: none; 
     }
+  }
+  .email span {
+    text-transform: lowercase;
   }
 }
 
@@ -280,14 +282,12 @@ nav {
     background: $darkerGray;
     color: $white;
   }
-  .act-club {
-    .logos {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      img {
-        width: 200px;
-      }
+  .logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 200px;
     }
   }
   .act-nextshow {
@@ -367,7 +367,6 @@ blockquote {
 
 .wrapper-footer {
   background-color: $darkerGray;
-  display: flex;
   padding: 20px 0;
   text-align: center;
   color: $gray;

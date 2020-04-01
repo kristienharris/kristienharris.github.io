@@ -16,7 +16,9 @@ html {
 
 body {
 	background: $white;
-  font: 16px/1.4 $georgia;
+  font-family: $georgia;
+  font-size: $defaultFont;
+  line-height: 1.4em;
   color: $darkGray;
   min-height: 100vh;
   display: grid;
@@ -186,7 +188,6 @@ img {
 }
 
 nav {
-  font-size: 1em;
   text-align: center;
   @include mobile {
     margin-top: 9px;
@@ -196,7 +197,8 @@ nav {
   a {
     color: $white;
     font-family: $futura;
-    font-weight: 200;
+    font-weight: 600;
+    font-size: 1em;
     letter-spacing: 3px;
     margin-left: 20px;
     opacity: .7;
@@ -242,7 +244,6 @@ nav {
     background-image: none;
     p {
       text-align: center;
-      font-size: $defaultFont;
     }
   }
   h1, h2, h3, h4, h5, h6 {
@@ -257,12 +258,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    h1,p {
+    h1, p {
       margin: 0;
       padding: .5em 1em;
     }
     h1 {
-      font-size: 1.5em;
       background: $black;
       color: $white;
     }
@@ -302,9 +302,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  .act-gallery {
-
   }
 }
 

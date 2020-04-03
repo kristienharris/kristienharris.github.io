@@ -93,7 +93,7 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-  - .jekyll-cache
+  - .jekyll-cache/
 exclude:
   - Gemfile
   - Gemfile.lock

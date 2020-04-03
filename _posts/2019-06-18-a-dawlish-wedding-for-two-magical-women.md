@@ -20,5 +20,7 @@ I rocked up to Dawlish Manor and got stuck in on the day. The picture, at the to
 > Attached is a photo my sister took.
 > 
 > You will always be part of a life long memory, how precious is that!
+>
+>A happy couple
 
 Weddings are very precious indeed and the more gigs I get to the more my eyes open to how wonderful it is being at them. I can't wait till the next one so I can meet some more beautiful people. Let's see if together we can create some laughter, some wonder and definitely some magic that will be a life long memory.

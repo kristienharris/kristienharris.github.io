@@ -20,6 +20,8 @@ Is a fortune telling song made popular as a nursery ryhme. It's meant to tell th
 >Friday's child is loving and giving;
 >
 >And Saturday's child must work for its living.
+>
+>Childrens Nursery Ryhme
 
 ![St Nicholas illustration of the ryhme](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/St._Nicholas_%28serial%29_%281873%29_%2814596944999%29.jpg/1280px-St._Nicholas_%28serial%29_%281873%29_%2814596944999%29.jpg)
 

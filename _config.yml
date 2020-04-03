@@ -94,6 +94,9 @@ exclude:
   - README.md
   - CNAME
   - .jekyll-cache/
+  - package-lock.json
+  - imagemin.js
+  - images-originals/
 exclude:
   - Gemfile
   - Gemfile.lock

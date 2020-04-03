@@ -9,3 +9,6 @@ Gemfile
 Gemfile.lock
 node_modules
 package.json
+imagemin.js
+package-lock.json
+images-originals/

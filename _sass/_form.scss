@@ -12,7 +12,7 @@
 	label {
 		-webkit-appearance: none;
 		border-radius: 0;
-		font-family: $georgia;
+		font-family: $fontBody;
 	}
 	input[type=text],
 	input[type=email],
@@ -22,9 +22,9 @@
 	}
 	label {
 		color: black;
-		font-size: $labelFont;
 		display: inline-block;
 		margin: 0 0 .5em 0;
+		font-family: $smallCaps;
 	}
 	input,
 	input[type=text],
@@ -39,7 +39,7 @@
 	   padding: .5em 1em;
 	   border-bottom: 3px solid $gray;
 	   margin: 0 0 2em 0;
-	   font-size: $defaultFont;
+	   font-size: $fontSizeBody;
    	}
 	textarea:focus, 
 	input[type=text]:focus,
@@ -51,7 +51,6 @@
 		background: $darkerGray;
 		border: none;
 		color: $white;
-		font-size: 1.2em;
 		font-family: $futura;
 		letter-spacing: .4em;
 		padding: .7em 1.5em;
@@ -74,7 +73,7 @@
    }
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-	font-family: $georgia;
+	font-family: $fontBody;
 	color: $black;
 	opacity: .2; /* Firefox */
   }

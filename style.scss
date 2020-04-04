@@ -16,8 +16,8 @@ html {
 
 body {
 	background: $white;
-  font-family: $georgia;
-  font-size: $defaultFont;
+  font-family: $fontBody;
+  font-size: $fontSizeBody;
   line-height: 1.4em;
   color: $darkGray;
   min-height: 100vh;
@@ -30,6 +30,7 @@ body {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
+  margin-bottom: 3em;
 }
 
 section {
@@ -52,6 +53,7 @@ h1 {
   font-size: 1.4em;
   a {
     color: inherit;
+    font-family: $futura;
   }
 }
 
@@ -68,14 +70,16 @@ h4 {
 }
 
 p {
-  margin: $defaultFont 0;
+  margin: 1em 0;
 }
-
+strong {
+  font-family: $smallCaps;
+}
 a {
   color: $blue;
   text-decoration: none;
   cursor: pointer;
-  
+  font-family: $smallCaps;
   &:hover {
     color: $blue;
   }
@@ -325,16 +329,20 @@ nav {
   }
 
   .read-more {
-    text-transform: uppercase;
-    font-size: 15px;
+    font-family: $smallCaps;
   }
 }
+
 blockquote {
   margin: 1.8em .8em;
   padding: 0.1em 1em;
   font-size: 22px;
   font-style: italic;
-  q {
+  footer, p:last-child {
+    font-style: normal;
+    font-family: $smallCaps;
+  }
+  q, p:not(:last-child) {
     quotes: "“" "”" "‘" "’";
     &:before {
       content: open-quote;

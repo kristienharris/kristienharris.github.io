@@ -96,7 +96,7 @@ exclude:
   - .jekyll-cache/
   - package-lock.json
   - imagemin.js
-  - images-originals/
+  - images-o/
   - harris.code-workspace
   - Gemfile
   - Gemfile.lock

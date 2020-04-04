@@ -97,7 +97,7 @@ exclude:
   - package-lock.json
   - imagemin.js
   - images-originals/
-exclude:
+  - harris.code-workspace
   - Gemfile
   - Gemfile.lock
   - node_modules

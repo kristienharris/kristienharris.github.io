@@ -72,18 +72,14 @@ h4 {
 p {
   margin: 1em 0;
 }
-strong {
-  font-family: $smallCaps;
-}
 a {
   color: $blue;
   text-decoration: none;
   cursor: pointer;
   font-family: $smallCaps;
   &:hover {
-    color: $blue;
+    color: $black;
   }
-
   &:active {
     color: inherit;
   }
@@ -114,8 +110,13 @@ em, i {
   font-style: italic;
 }
 
-strong, b {
-  font-weight: bold;
+strong {
+  font-family: $smallCaps;
+  font-weight: normal;
+}
+
+b {
+  font-weight: normal;
 }
 
 img {
@@ -162,32 +163,17 @@ img {
 .masthead {
   padding: 20px 0;
   text-align: center;
-  .home {
-    color: transparent;
-    background: url({{ site.avatar }}) no-repeat;
-    width: 110px;
-    display: inline-block;
-    @include mobile {
-      color: white;
-      background-image: none;
-      display: none; 
-    }
-  }
-  .email span {
-    text-transform: lowercase;
-  }
 }
 
 .site-avatar {
-  display: none;
-  height: 22px;
-
-  @include mobile {
-    display: inline;
-  }
-  img {
+  svg {
     width: 150px;
     margin: 0 auto;
+    &:hover {
+      .st0 {
+        stroke: $blue;
+      }
+    }
   }
 }
 

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 ---
 ## A day in the life of a magician
 Disclaimer no magic. But a quirky video diary of what it's like as a professional magician.

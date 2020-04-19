@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body class="stage">
+    {% include masthead.html %}
+    
+    <section class="gallery">
+      <div class="container">
+        <div class="gallery">
+          {{ content }}
+        </div>
+      </div>
+    </section>
+
+    {% include form.html %}
+    {% include footer.html %}
+    {% include analytics.html %}
+  </body>
+</html>

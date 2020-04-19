@@ -1,4 +1,8 @@
 - name: Story
   link: /my-story/
+- name: Video
+  link: /video/
+- name: Photos
+  link: /Photos/
 - name: Contact
   link: '#contact-form'

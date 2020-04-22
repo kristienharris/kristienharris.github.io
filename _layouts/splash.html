@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body class="stage">
+    {% include masthead.html %}
+    
+    <section class="act-open">
+      <div class="container">
+        <h1>{{ site.name }}</h1>
+        <p>{{ site.description }}</p>
+        <div class="logos">
+          <img class="the-magic-circle-logo" src="images/the-magic-circle-logo.svg" title="Kristien Harris MMC" alt="The Magic Circle Logo">
+          <img class="equity-logo" src="images/equity-logo-bg.jpg" title="Insured Equity Member" alt="Equity Logo">
+        </div>
+      </div>
+    </section>
+
+    {% include form.html %}
+    {% include footer.html %}
+    {% include analytics.html %}
+  </body>
+</html>

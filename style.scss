@@ -180,6 +180,8 @@ img {
 }
 
 .site-avatar {
+  display: block;
+  margin-top: 1em;
   svg {
     width: 150px;
     margin: 0 auto;
@@ -193,8 +195,9 @@ img {
 
 nav {
   text-align: center;
+  margin-top: 1em;
   @include mobile {
-    margin-top: 9px;
+    margin-top: .8em;
     display: block;
     font-size: 16px;
   }
@@ -203,19 +206,17 @@ nav {
     font-family: $futura;
     font-weight: 400;
     font-size: 1em;
-    letter-spacing: 5px;
-    margin-left: 20px;
+    letter-spacing: .06em;
+    margin: 0 1em;
     opacity: .7;
     text-transform: uppercase;
     transition: .3s;
-
     &:hover, &:active {
       color: $white;
       opacity: 1;
     }
-
     @include mobile {
-      margin: 0 10px;
+      margin: 0 .3em;
     }
   }
 }
@@ -246,14 +247,17 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: none;
-    p {
+    p, a {
       text-align: center;
     }
   }
   h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
-    letter-spacing: 1em;
+    letter-spacing: .5em;
     text-align: center;
+    @include mobile {
+      letter-spacing: .3em;
+    }
   }
   .act-open {
     background-image: url("images/2018-magician-devon-kristien-harris-promo.jpg");
@@ -276,8 +280,6 @@ nav {
       margin: 0 auto;
     }
   }
-  .act-intro {
-  }
   .act-magician,
   .act-trickster,
   .act-environments,
@@ -291,7 +293,10 @@ nav {
     align-items: center;
     justify-content: center;
     img {
-      width: 200px;
+      &:first-child {
+        margin-left: -1em;
+      }
+      width: 150px;
     }
   }
   .act-nextshow {

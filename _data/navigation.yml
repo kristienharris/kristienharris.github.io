@@ -4,5 +4,7 @@
   link: /video/
 - name: Photos
   link: /photos/
+- name: FAQ
+  link: /faq/
 - name: Contact
   link: '#contact-form'

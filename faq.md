@@ -2,23 +2,33 @@
 layout: page
 title: Frequently asked questions
 ---
-## *Q*. How do I know you can entertain my guests?
-***A***. I entertain guests because 14 years of professional performing experience is hard earnt. Also The Magic Circle in London is one of the most prestigious magic clubs in the world and they don't let people in unless they're great.
 
-## *Q*. How do I know you're worth the cost?
-***A***. It's great value because you're getting a seasoned performer from the countries most prestigious magic club at a fraction of the cost of a London based performer.
+## *Q*. How do photocopiers work?
+***A***. Since sufficiently advanced technology is apparently indistinguishable from magic it has to be magic. Thanks Arthur.
+
+## *Q*. Can you make my wife disappear?
+***A***. Before I answer ask your self do you really need a magician or are you looking for a different service.
+
+## *Q*. How do you do it?
+***A***. Now now naughty question. But hopefully I do it very well.
+
+## *Q*. How do I know you can entertain my guests?
+***A***. I don't. I just hope we get on I'm there to have fun as well. Nothing worse than hating a crowd.
+
+## *Q*. How do I know you're worth it?
+***A***. Because you're getting a seasoned performer from the countries most prestigious magic club.
 
 ## *Q*. How do I know my deposit is safe?
-***A***. I use a standard terms and conditions agreement which is a legally binding document. I offer full refunds for bookings cancelled within a reasonable amount of time. [Read the terms and conditions](/terms-and-conditions "Read the terms here")
+***A***. I use a terms and conditions agreement which is legally binding document. I offer full refunds for bookings cancelled within a reasonable amount of time. [Read the terms and conditions](/terms-and-conditions "Read the terms here")
 
-## *Q*. What do other people think of your service?
+## *Q*. Can any other muggles vouch for you?
 ***A***. The homepage of this site has some nice testimonials. They're lovely people that have paid me in the past. You could also read some of the reviews on my [Google Business listing Harris Magic](https://www.google.com/search?q=harris+magic&oq=harris+magic&aqs=chrome..69i57j69i65l3.1408j0j1&sourceid=chrome&ie=UTF-8#lrd=0x486c93265bc06ef1:0xa257ffaf30d6a15,1,,, "Read reviews on listing").
 
 ## *Q*. Could I get this service cheaper or without paying?
-***A***. The chances are the service might not be as good and your guests will notice. By paying your choosing someone who is committed to offering a good service. You'd also not get the re-assurance of a contract by not paying.
+***A***. If you're asking this question I might not be your magician.
 
-## *Q*. How can I trust you not to make a fool of my guests?
-***A***. I love entertaining with artisitc, humourus and funny performances of impossibilities. Although there is humour in my show it's not a comedy act built to humiliate people. I want my performances to make people feel wonder, amazement and fun.
+## *Q*. Will you make a fool of my guests?
+***A***. To be honest I'll probably make a fool of myself first.
 
-## *Q*. I'm concerned about you storing my information and sharing it?
-***A***. I share no communications unless given permission for testimonials, photo and video. Emails are only sent to my inbox and not stored in a database. Any booking information is stored in a spreadsheet that is only used for accounting purposes. I sometimes follow up bookers to ask for feedback and update them on my latest news. 
+## *Q*. Will you share my information?
+***A***. Well I'm not on any of the ungodly forms of media. So no. I have cards to shuffle and scripts to write.

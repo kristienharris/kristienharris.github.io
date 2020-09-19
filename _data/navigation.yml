@@ -1,7 +1,7 @@
 - name: Story
   link: /my-story/
-- name: Video
-  link: /video/
+# - name: Video
+#   link: /video/
 - name: Photos
   link: /photos/
 - name: FAQ

@@ -7,7 +7,7 @@ Is a fortune telling song made popular as a nursery ryhme. It's meant to tell th
 
 >The child that is born on the Sabbath day
 >
->Is blithe and bonny,good and gay;
+>Is blithe and bonny, good and gay;
 >
 >Monday's child is fair of face;
 >

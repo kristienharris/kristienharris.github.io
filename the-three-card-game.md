@@ -2,7 +2,7 @@
 layout: page
 title: The Three Card Game
 ---
-Somehow you got your dirty little mits on one of these packets of cards. Well lucky you your'e holding a cheats secret. Guard it wisely.
+Somehow you got your dirty little mits on one of these packets of cards. Well lucky you you're holding a cheats secret. Guard it wisely.
 
 ## Explanation
 All you need to know about the 'secret moves'

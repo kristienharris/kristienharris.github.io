@@ -7,17 +7,17 @@ Somehow you got your dirty little mits on one of these packets of cards. Well lu
 ## Explanation
 All you need to know about the 'secret moves'
 
-<iframe width="560" height="315" src="https://youtu.be/aLkBTKIc0X8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aLkBTKIc0X8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Challenge Routine
 A presentation that gets the audience guessing where the card is.
 
-<iframe width="560" height="315" src="https://youtu.be/6Z7vKKB5IGY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6Z7vKKB5IGY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Magic Routine
+## Trick Routine
 An impossible transposition and vanish of the target card.
 
-<iframe width="560" height="315" src="https://youtu.be/1m9I1bYGmHw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1m9I1bYGmHw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Performance notes
 These will help you learn and prevent you looking a fool if you get it wrong.

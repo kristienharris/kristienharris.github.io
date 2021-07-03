@@ -15,7 +15,7 @@ html {
 }
 
 body {
-	background: $white;
+  background: $white;
   font-family: $fontBody;
   font-size: $fontSizeBody;
   line-height: 1.4em;
@@ -37,7 +37,12 @@ section {
   width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: $futura;
   font-weight: normal;
   line-height: 1.7;
@@ -85,7 +90,8 @@ a {
   }
 }
 
-ul, ol {
+ul,
+ol {
   margin: 15px 0;
   padding-left: 30px;
 }
@@ -98,15 +104,20 @@ ol {
   list-style-type: decimal;
 }
 
-ol ul, ul ol, ul ul, ol ol {
+ol ul,
+ul ol,
+ul ul,
+ol ol {
   margin: 0;
 }
 
-ul ul, ol ul {
+ul ul,
+ol ul {
   list-style-type: circle;
 }
 
-em, i {
+em,
+i {
   font-style: italic;
 }
 
@@ -158,12 +169,12 @@ img {
 // https://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    display: table;
+  content: " ";
+  display: table;
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 /* LAYOUT / SECTIONS */
@@ -197,7 +208,7 @@ nav {
   text-align: center;
   margin-top: 1em;
   @include mobile {
-    margin-top: .8em;
+    margin-top: 0.8em;
     display: block;
     font-size: 16px;
   }
@@ -206,17 +217,18 @@ nav {
     font-family: $futura;
     font-weight: 400;
     font-size: 1em;
-    letter-spacing: .06em;
+    letter-spacing: 0.06em;
     margin: 0 1em;
-    opacity: .7;
+    opacity: 0.7;
     text-transform: uppercase;
-    transition: .3s;
-    &:hover, &:active {
+    transition: 0.3s;
+    &:hover,
+    &:active {
       color: $white;
       opacity: 1;
     }
     @include mobile {
-      margin: 0 .3em;
+      margin: 0 0.3em;
     }
   }
 }
@@ -224,7 +236,8 @@ nav {
 /* Background image */
 
 // ios background image fix
-@supports (-webkit-touch-callout: none) { // CSS specific to iOS devices
+@supports (-webkit-touch-callout: none) {
+  // CSS specific to iOS devices
   .stage {
     section {
       background-attachment: scroll;
@@ -232,7 +245,8 @@ nav {
   }
 }
 
-@supports not (-webkit-touch-callout: none) { // CSS for other than iOS devices
+@supports not (-webkit-touch-callout: none) {
+  // CSS for other than iOS devices
   .stage {
     section {
       background-attachment: fixed;
@@ -247,16 +261,22 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: none;
-    p, a {
+    p,
+    a {
       text-align: center;
     }
   }
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     text-transform: uppercase;
-    letter-spacing: .5em;
+    letter-spacing: 0.5em;
     text-align: center;
     @include mobile {
-      letter-spacing: .3em;
+      letter-spacing: 0.3em;
     }
   }
   .act-open {
@@ -266,9 +286,10 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    h1, p {
+    h1,
+    p {
       margin: 0;
-      padding: .5em 1em;
+      padding: 0.5em 1em;
     }
     h1 {
       background: $black;
@@ -283,7 +304,7 @@ nav {
   .act-magician,
   .act-trickster,
   .act-environments,
-  .act-occasions  {
+  .act-occasions {
     text-align: center;
     background: $darkerGray;
     color: $white;
@@ -327,8 +348,8 @@ nav {
   border-bottom: none;
 }
 
-.post blockquote, .page {
-
+.post blockquote,
+.page {
   .comments {
     margin-top: 10px;
   }
@@ -339,22 +360,23 @@ nav {
 }
 
 blockquote {
-  margin: 1.8em .8em;
+  margin: 1.8em 0.8em;
   padding: 0.1em 1em;
   font-size: 22px;
   font-style: italic;
-  footer, p:last-child {
+  footer,
+  p:last-child {
     font-style: normal;
     font-family: $smallCaps;
   }
-  q, p:not(:last-child) {
+  q,
+  p:not(:last-child) {
     quotes: "“" "”" "‘" "’";
     &:before {
       content: open-quote;
     }
     &:after {
       content: close-quote;
-      
     }
   }
 }
@@ -366,8 +388,8 @@ blockquote {
   padding: 1em;
   line-height: 2em;
   text-transform: uppercase;
-  opacity: .6;
-  transition: .8s;
+  opacity: 0.6;
+  transition: 0.8s;
   &:hover {
     background: $black;
     color: $white;
@@ -390,3 +412,4 @@ blockquote {
 @import "form";
 @import "highlights";
 @import "svg-icons";
+@import "8ball";

@@ -6,5 +6,7 @@
   link: /photos/
 - name: FAQ
   link: /faq/
+- name: Blog
+  link: /blog/
 - name: Contact
-  link: '#contact-form'
+  link: "#contact-form"

@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: blank
+css: 8ball.css
 ---
 
 <figure class="ball">

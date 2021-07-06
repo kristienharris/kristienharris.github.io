@@ -1,9 +1,5 @@
 ---
-layout: blank
+layout: 8ball
 css: 8ball.css
+title: Answers4All
 ---
-
-<figure class="ball">
-    <h1>8</h1>
-    <p>Concentrate and ask again</p>
-</figure>

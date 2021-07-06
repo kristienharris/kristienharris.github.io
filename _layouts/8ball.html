@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+    {% include tag-manager.html %}
+    <h2>{{ page.title }}</h2>
+
+    <figure id="ball">
+        <h1 id="spot">8</h1>
+        <p id="answer" class="hide">Think of a question and click</p>
+    </figure>
+
+    <footer>
+        <p>Created by and for Kristien Anthony Harris &copy;
+            <script>
+                document.write(new Date().getFullYear());
+            </script>
+        </p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script>
+        // Reference
+        // https://en.wikipedia.org/wiki/Magic_8-Ball
+        const answers = [
+            // First 10 of the possible answers are affirmative, Next 5 are non-committal, and last 5 are negative.
+            "It is certain",
+            "It is decidedly so",
+            "Without a doubt",
+            "Yes definitely",
+            "You may rely on it",
+            "As I see it yes",
+            "Most likely",
+            "Outlook good",
+            "Yes",
+            "Signs point to yes",
+            "Reply hazy try again",
+            "Ask again later",
+            "Better not tell you now",
+            "Cannot predict now",
+            "Concentrate and ask again",
+            "Don't count on it",
+            "My reply is no",
+            "My sources say no",
+            "Outlook not so good",
+            "Very doubtful"
+        ]
+        let answer = "";
+        let answerHTML = document.querySelector("#answer");
+
+        function getRandomAnswer() {
+
+            // Get a random answer from the answers array
+            answer = answers[Math.floor(Math.random() * Math.floor(answers.length))];
+
+            // Change the text of our html answer paragraph to the answer we saved earlier
+            answerHTML.textContent = answer;
+
+        }
+
+        // Get the answer when the button is clicked
+        document.querySelector("#ball").addEventListener('click', function () { getRandomAnswer() })
+
+        $("figure").click(function () {
+            $("#answer").toggleClass("show-answer");
+            $("#answer").toggleClass("hide");
+            $("#spot").toggleClass("spin");
+        });
+
+    </script>
+
+</body>
+
+</html>

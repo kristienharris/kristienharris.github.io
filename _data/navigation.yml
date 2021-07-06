@@ -10,5 +10,5 @@
   link: /blog/
 - name: Contact
   link: "#contact-form"
-- name: 8Ball
-  link: /8ball/
+# - name: 8Ball
+#   link: /8ball/

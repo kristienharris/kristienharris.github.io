@@ -5,10 +5,10 @@
 <body>
     {% include tag-manager.html %}
     <h2>{{ page.title }}</h2>
-
+    <p>Think of a question and click</p>
     <figure id="ball">
         <h1 id="spot">8</h1>
-        <p id="answer" class="hide">Think of a question and click</p>
+        <p id="answer">Answers on click</p>
     </figure>
 
     <footer>
@@ -26,29 +26,29 @@
         // https://en.wikipedia.org/wiki/Magic_8-Ball
         const answers = [
             // First 10 of the possible answers are affirmative, Next 5 are non-committal, and last 5 are negative.
-            "It is certain",
-            "It is decidedly so",
-            "Without a doubt",
-            "Yes definitely",
-            "You may rely on it",
-            "As I see it yes",
-            "Most likely",
-            "Outlook good",
+            "It is\ncertain",
+            "It is\ndecidedly so",
+            "Without\na doubt",
+            "Yes\ndefinitely",
+            "You may\nrely on it",
+            "As I see it\nyes",
+            "Most\nlikely",
+            "Outlook\ngood",
             "Yes",
-            "Signs point to yes",
-            "Reply hazy try again",
-            "Ask again later",
-            "Better not tell you now",
-            "Cannot predict now",
-            "Concentrate and ask again",
-            "Don't count on it",
-            "My reply is no",
-            "My sources say no",
-            "Outlook not so good",
-            "Very doubtful"
+            "Signs point\nto yes",
+            "Reply hazy\ntry again",
+            "Ask again\nlater",
+            "Better not\ntell you now",
+            "Cannot predict\nnow",
+            "Concentrate and\nask again",
+            "Don't count\non it",
+            "My reply\nis no",
+            "My sources\nsay no",
+            "Outlook\nnot so good",
+            "Very\ndoubtful"
         ]
         let answer = "";
-        let answerHTML = document.querySelector("#answer");
+        let answerHTML = document.querySelector("#ball p");
 
         function getRandomAnswer() {
 
@@ -63,10 +63,9 @@
         // Get the answer when the button is clicked
         document.querySelector("#ball").addEventListener('click', function () { getRandomAnswer() })
 
-        $("figure").click(function () {
-            $("#answer").toggleClass("show-answer");
-            $("#answer").toggleClass("hide");
-            $("#spot").toggleClass("spin");
+        $("#ball").click(function () {
+            $("#ball h1").toggleClass("vanish");
+            $("#ball").toggleClass("spin");
         });
 
     </script>
